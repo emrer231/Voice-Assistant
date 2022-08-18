@@ -1,0 +1,70 @@
+{"intents":[
+    {"tag":"greeting",
+    "patterns": ["selam maviş", "merhaba maviş", "merhaba", "selam", "hey maviş", "hey"],
+    "responses": ["merhaba, sana nasıl yardımcı olabilirim"]},
+
+    {"tag":"sarki",
+        "patterns": ["şarkı söyle"],
+        "responses":[""]},
+
+    {"tag":"goodbye",
+    "patterns":["görüşürüz", "tamamdır", "çıkış", "bitir", "uygulamadan çık", "hoşçakal", "güle güle", "gitmem lazım"],
+    "responses":[""]},
+
+    {"tag":"what_time",
+    "patterns":["saat kaç", "saati söyle"],
+    "responses":[""]},
+
+    {"tag":"search_in_wiki",
+    "patterns":["wiki'de arat", "wiki", "wikipedia", "wikipedia'da arat"],
+    "responses":[""]},
+
+    {"tag":"open_video_youtube",
+    "patterns":["youtube'da arat", "youtube'da bul", "youtube'da izle","youtube"],
+    "responses":[""]},
+
+    {"tag":"search_google",
+    "patterns":["google'da arat", "google'da bul", "google", "google'la", "google amcaya sor"],
+    "responses":[""]},
+    
+    {"tag":"open_twitter",
+    "patterns":["twitter", "twitter'ı aç", "twitter aç", "aç twitter", "twit"],
+    "responses":[""]},
+
+    {"tag":"open_github",
+    "patterns":["github", "github'ı aç", "github aç", "aç github"],
+    "responses":[""]},
+
+    {"tag":"uygulama_ac",
+    "patterns":["uygulama aç", "çalıştır", "programı yürüt", "program yürüt", "program aç"],
+    "responses":[""]},
+
+    {"tag":"day_week",
+    "patterns":["bugün günlerden ne", "hangi gündeyiz", "haftanın günü"],
+    "responses":[""]},
+
+    {"tag":"current_date",
+    "patterns":["bugünün tarihi ne", "tarih ne", "tarihi söyle"],
+    "responses":[""]},
+
+    {"tag":"weather_forc",
+    "patterns":["hava durumu", "hava durumu nasıl", "hava nasıl", "bugün hava nasıl", "şemsiye kullanmalı mıyım"],
+    "responses":[""]},
+
+    {"tag":"system_shut_down",
+    "patterns":["sistemi kapat", "sistem kapansın", "bilgisayarı kapat", "bilgisayar kapansın"],
+    "responses":[""]},
+
+    {"tag":"create_alarm",
+    "patterns":["alarm oluştur", "yeni alarm", "alarm kur"],
+    "responses":[""]},
+
+    {"tag":"antivirus",
+    "patterns":["tarama başlat", "antivirüs", "windows defender", "bilgisayarı tara", "tara", "virüs bul"],
+    "responses":[""]},
+
+    {"tag":"lock_screen",
+    "patterns":["ekranı kilitle"],
+    "responses":[""]}
+
+]}
